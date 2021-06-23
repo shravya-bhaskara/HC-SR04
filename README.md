@@ -9,10 +9,10 @@ HC-SR04 (Ultrasonic Sensor): an ultrasonic sensor is used when we need to measur
 
 The ultrasonic sensor has 4 pins :
 
-1) VCC- should be connected to a 5V pin of the arduino.
-2) gnd- should be connected to ground pin of the arduino.
-3) trigger pin- can be connected to any of the digital pins on arduino.
-4) echo pin- can be connected to any of the digital pins on arduino.
+- VCC- should be connected to a 5V pin of the arduino.
+- gnd- should be connected to ground pin of the arduino.
+- trigger pin- can be connected to any of the digital pins on arduino.
+- echo pin- can be connected to any of the digital pins on arduino.
 
 The trigger pin is an output pin, as it sends out ultrasonic waves. While working out the project, if one eye (trigger pin eye) of the sensor is closed, we do not see any output, as no waves are sent out in the first place.
 
